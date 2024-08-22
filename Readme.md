@@ -1,7 +1,7 @@
 
 # Pinterest Clone
 
-Welcome to the Pinterest Clone project, a web application inspired by Pinterest's layout and functionality. This clone is built using Node.js, Express, MongoDB, EJS, and Tailwind CSS, offering a platform for users to discover, save, and organize images and ideas.
+Welcome to the Pinterest Clone project, a web application inspired by Pinterest's layout and functionality. This clone is built using Node.js, Express, MongoDB, EJS, and PASSPORT, offering a platform for users to discover, save, and organize images and ideas.
 
 ## Tech Stack
 
@@ -9,7 +9,6 @@ Welcome to the Pinterest Clone project, a web application inspired by Pinterest'
 ![Express](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb)
 ![EJS](https://img.shields.io/badge/EJS-%234ea94b.svg?style=for-the-badge)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css)
 
 ## Features
 
@@ -18,18 +17,7 @@ Welcome to the Pinterest Clone project, a web application inspired by Pinterest'
 - **Board Creation**: Create boards to categorize and organize saved images.
 - **Image Saving**: Save images from other users' uploads and organize them into boards.
 - **Explore Feed**: Discover new images uploaded by other users.
-- **Responsive Design**: Mobile-friendly layout using Tailwind CSS for seamless browsing on various devices.
-
-## Preview
-
-### Login Page
-![Pinterest Clone Preview](/public/assets/pinterest-clone.png)
-
-### Register Page
-![Pinterest Clone Preview](/pin2.png)
-
-### Home Page
-![Pinterest Clone Preview](/pin3.png)
+- **Responsive Design**: Mobile-friendly layout for seamless browsing on various devices.
 
 ## Demo
 
@@ -53,7 +41,7 @@ To run this project locally, follow these steps:
 ```npm install```
 
 
-4. Set up your MongoDB database and update the connection string in `config/db.js`.
+4. Set up your MongoDB database and update the connection string in `router/user.js`.
 
 5. Start the server:
 ```npm start```
@@ -64,7 +52,7 @@ To run this project locally, follow these steps:
 ## Acknowledgments
 
 - [Pinterest](https://www.pinterest.com/) - For inspiring the design and functionality of this project.
-- [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), [EJS](https://ejs.co/), [Tailwind CSS](https://tailwindcss.com/) - For providing the technologies that made this project possible.
+- [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), [EJS](https://ejs.co/) - For providing the technologies that made this project possible.
 
 
 ## Contribution
