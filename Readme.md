@@ -30,24 +30,24 @@ Check out the live demo of my Pinterest Clone:
 To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
-```git clone https://github.com/yourusername/pinterest-clone.git```
+```git clone https://github.com/Aadishranjan/pinterest-clone.git```
 
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 ```cd pinterest-clone```
 
 
-3. Install the dependencies:
+4. Install the dependencies:
 ```npm install```
 
 
-4. Set up your MongoDB database and update the connection string in `router/user.js`.
+5. Set up your MongoDB database and update the connection string in `router/user.js`.
 
-5. Start the server:
+6. Start the server:
 ```npm start```
 
 
-6. Open your browser and visit `http://localhost:3000` to view the Pinterest Clone.
+7. Open your browser and visit `http://localhost:3000` to view the Pinterest Clone.
 
 ## Acknowledgments
 
